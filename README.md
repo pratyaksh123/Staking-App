@@ -8,3 +8,6 @@
 #### Future Development
 - Make a crowd funding platform based on this dApp.
 - Make the contract more customizable and allow people to create pools.
+
+##### Build on Scaffold-eth
+https://github.com/austintgriffith/scaffold-eth/tree/challenge-1-decentralized-staking
