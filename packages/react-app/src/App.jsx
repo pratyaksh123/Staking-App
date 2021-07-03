@@ -18,7 +18,7 @@ const humanizeDuration = require("humanize-duration");
 const targetNetwork = NETWORKS['localhost']; // <------- select your target frontend network (localhost, rinkeby, xdai, mainnet)
 
 // 😬 Sorry for all the console logging
-const DEBUG = true
+const DEBUG = false
 
 // 🛰 providers
 if(DEBUG) console.log("📡 Connecting to Mainnet Ethereum");
@@ -263,14 +263,6 @@ function App(props) {
               tx( writeContracts.Staker.stake({value: parseEther("0.5")}) )
             }}>🥩  Stake 0.5 ether!</Button>
           </div>
-
-
-
-            {/*
-                🎛 this scaffolding is full of commonly used components
-                this <Contract/> component will automatically parse your ABI
-                and give you a form to interact with it locally
-            */}
 
             <div style={{width:500, margin:"auto",marginTop:64}}>
               <div>Stake Events:</div>
